@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-dados = [[1, 2, 3],
-         [4, 5, 6],
-         [7, 8, 9]]
+dados = [[1, 6, 3],
+         [4, 7, 6],
+         [7, 8, 12]]
 
 sns.heatmap(dados, cmap='YlGnBu', annot=True, cbar=True)
 
